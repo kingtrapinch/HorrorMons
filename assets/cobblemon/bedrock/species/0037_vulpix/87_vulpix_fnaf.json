@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:vulpix",
+  "order": 87,
+  "variations": [
+    {
+      "aspects": ["fnaf"],
+      "poser": "cobblemon:vulpix",
+      "model": "cobblemon:vulpix-fnaf.geo",
+      "texture": "cobblemon:textures/pokemon/0037_vulpix/vulpix-fnaf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fnaf",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0037_vulpix/vulpix-fnaf_shiny.png"
+    }
+  ]
+}

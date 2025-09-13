@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:buneary",
+  "order": 87,
+  "variations": [
+    {
+      "aspects": ["fnaf"],
+      "poser": "cobblemon:buneary",
+      "model": "cobblemon:buneary-fnaf.geo",
+      "texture": "cobblemon:textures/pokemon/0427_buneary/buneary-fnaf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fnaf",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0427_buneary/buneary_shiny.png"
+    }
+  ]
+}

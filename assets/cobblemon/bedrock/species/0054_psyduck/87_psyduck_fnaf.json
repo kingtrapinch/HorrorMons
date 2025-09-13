@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:psyduck",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["fnaf"],
+      "poser": "cobblemon:psyduck",
+      "model": "cobblemon:psyduck-fnaf.geo",
+      "texture": "cobblemon:textures/pokemon/0054_psyduck/psyduck-fnaf.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "fnaf",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0054_psyduck/psyduck-fnaf_shiny.png"
+    }
+  ]
+}
