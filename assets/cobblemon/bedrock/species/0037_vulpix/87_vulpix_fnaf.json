@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["fnaf"],
-      "poser": "cobblemon:vulpix",
+      "poser": "cobblemon:vulpix-fnaf",
       "model": "cobblemon:vulpix-fnaf.geo",
       "texture": "cobblemon:textures/pokemon/0037_vulpix/vulpix-fnaf.png",
       "layers": []

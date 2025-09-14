@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["fnaf"],
-      "poser": "cobblemon:psyduck",
+      "poser": "cobblemon:psyduck-fnaf",
       "model": "cobblemon:psyduck-fnaf.geo",
       "texture": "cobblemon:textures/pokemon/0054_psyduck/psyduck-fnaf.png",
       "layers": []

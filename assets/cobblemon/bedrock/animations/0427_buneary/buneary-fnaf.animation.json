@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.buneary.ground_idle": {
+		"animation.buneary-fnaf.ground_idle": {
 			"loop": true,
 			"bones": {
 				"arm_left": {
@@ -37,7 +37,7 @@
 				}
 			}
 		},
-		"animation.buneary.blink": {
+		"animation.buneary-fnaf.blink": {
 			"animation_length": 0.16667,
 			"bones": {
 				"eyelid_left": {
@@ -56,7 +56,7 @@
 				}
 			}
 		},
-		"animation.buneary.cry": {
+		"animation.buneary-fnaf.cry": {
 			"animation_length": 1.54167,
 			"bones": {
 				"head": {
@@ -121,7 +121,7 @@
 			},
 			"sound_effects": {
 				"0.125": {
-					"effect": "pokemon.buneary.cry"
+					"effect": "pokemon.buneary-fnaf.cry"
 				}
 			}
 		}
