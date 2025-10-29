@@ -1,0 +1,85 @@
+{
+  "target": "cobblemon:sudowoodo",
+  "forms": [
+    {
+      "implemented": true,
+      "nationalPokedexNumber": 185,
+      "name": "SCP-173",
+      "primaryType": "rock",
+      "secondaryType": "steel",
+      "maleRatio": 0.5,
+      "height": 12,
+      "weight": 380,
+      "pokedex": [
+        "cobblemon.species.sudowoodo.desc"
+      ],
+      "labels": [
+        "gen2"
+      ],
+      "aspects": [
+        "horror"
+      ],
+      "abilities": [
+        "truant"
+      ],
+      "eggGroups": [
+        "mineral"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 30,
+        "defence": 115,
+        "special_attack": 255,
+        "special_defence": 65,
+        "speed": 130
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 144,
+      "experienceGroup": "medium_fast",
+      "catchRate": 65,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 0.9,
+        "height": 2.3,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          }
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "cobblemon:hard_stone",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:passho_berry",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:yawn",
+        "1:dreameater",
+        "1:destinybond"
+      ],
+      "preEvolution": "bonsly horror",
+      "evolutions": []
+    }
+  ]
+}
