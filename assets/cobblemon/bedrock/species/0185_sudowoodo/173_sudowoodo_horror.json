@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:sudowoodo",
+  "order": 173,
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "poser": "cobblemon:sudowoodo",
+      "model": "cobblemon:sudowoodo_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0185_sudowoodo/sudowoodo_horror.png",
+      "layers": []
+    },
+    {
+      "aspects": ["horror","shiny"],
+      "texture": "cobblemon:textures/pokemon/0185_sudowoodo/sudowoodo_horror_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:bewear",
+  "order": 8,
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "poser": "cobblemon:bewear",
+      "model": "cobblemon:bewear_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0760_bewear/bewear_horror.png",
+      "layers": []
+    },
+    {
+      "aspects": ["horror","shiny"],
+      "texture": "cobblemon:textures/pokemon/0760_bewear/bewear_horror_shiny.png"
+    }
+  ]
+}

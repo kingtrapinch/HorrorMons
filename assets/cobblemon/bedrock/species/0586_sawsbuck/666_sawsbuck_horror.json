@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:sawsbuck",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "poser": "cobblemon:sawsbuck",
+      "model": "cobblemon:sawsbuck_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_horror.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_horror_e.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["horror", "shiny"],
+      "poser": "cobblemon:sawsbuck",
+      "model": "cobblemon:sawsbuck_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_horror_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_horror_shiny_e.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

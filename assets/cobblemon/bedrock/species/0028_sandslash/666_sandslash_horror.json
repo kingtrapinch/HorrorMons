@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:sandslash",
+  "order": 666,
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "poser": "cobblemon:sandslash",
+      "model": "cobblemon:sandslash_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0028_sandslash/sandslash_horror.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0028_sandslash/sandslash_horror_e.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["horror","shiny"],
+      "texture": "cobblemon:textures/pokemon/0028_sandslash/sandslash_horror_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0028_sandslash/sandslash_horror_shiny_e.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
