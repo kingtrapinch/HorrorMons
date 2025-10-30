@@ -1,0 +1,36 @@
+ {
+  "portraitScale": 2.44,
+  "portraitTranslation": [-0.11, 0.5, 0],
+  "profileScale": 0.68,
+  "profileTranslation": [0, 0.74, 0],
+  "rootBone": "vulpix_horror",
+  "animations": {
+    "cry": "q.bedrock_stateful('vulpix_horror', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('vulpix_horror', 'blink')"]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'pose1')"],
+      "quirks": ["q.bedrock_quirk('vulpix_horror', 'blink')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('vulpix_horror', 'blink')"]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('vulpix_horror', 'sleep')"]
+    }
+  }
+}

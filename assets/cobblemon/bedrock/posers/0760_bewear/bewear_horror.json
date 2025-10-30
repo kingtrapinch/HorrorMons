@@ -1,0 +1,32 @@
+ {
+  "portraitScale": 1.2,
+  "portraitTranslation": [-0.2, 2.2, 0.0],
+  "profileScale": 0.45,
+  "profileTranslation": [0.0, 1.1, 0.0],
+  "rootBone": "bewear_horror",
+  "animations": {
+    "cry": "q.bedrock_stateful('bewear_horror', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('bewear_horror', 'battle_idle')"],
+      "quirks": ["q.bedrock_quirk('bewear_horror', 'blink')"]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('bewear_horror', 'pose1')"],
+      "quirks": ["q.bedrock_quirk('bewear_horror', 'blink')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('bewear_horror', 'ground_walk')"],
+      "quirks": ["q.bedrock_quirk('bewear_horror', 'blink')"]
+    }
+  }
+}
