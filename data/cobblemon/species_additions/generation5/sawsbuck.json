@@ -43,6 +43,16 @@
         "height": 1.9,
         "fixed": false
       },
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.6
+          },
+          "swim": {
+            "canSwimInWater": false
+          }
+        }
+      },
       "drops": {
         "amount": 3,
         "entries": [
