@@ -19,7 +19,7 @@
       "poseName": "standing",
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "isBattle": false,
-      "animations": ["q.look('head')", "q.bedrock('sandslash_horror', 'pose1')"],
+      "animations": ["q.look('head')", "q.bedrock('sandslash_horror', 'ground_idle')"],
       "quirks": ["q.bedrock_quirk('sandslash_horror', 'blink')"]
     },
     "walking": {

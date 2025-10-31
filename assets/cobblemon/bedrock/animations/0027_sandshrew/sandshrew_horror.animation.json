@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.sandshrew.ground_idle": {
+		"animation.sandshrew_horror.ground_idle": {
 			"loop": true,
 			"bones": {
 				"arm_left": {
@@ -49,7 +49,7 @@
 				}
 			}
 		},
-		"animation.sandshrew.ground_walk": {
+		"animation.sandshrew_horror.ground_walk": {
 			"loop": true,
 			"animation_length": 21.4167,
 			"bones": {
@@ -143,7 +143,7 @@
 				}
 			}
 		},
-		"animation.sandshrew.faint": {
+		"animation.sandshrew_horror.faint": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -411,7 +411,7 @@
 				}
 			}
 		},
-		"animation.sandshrew.sleep": {
+		"animation.sandshrew_horror.sleep": {
 			"loop": true,
 			"animation_length": 3.9167,
 			"bones": {
@@ -484,7 +484,7 @@
 				}
 			}
 		},
-		"animation.sandshrew.blink": {
+		"animation.sandshrew_horror.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_right": {
@@ -503,11 +503,11 @@
 				}
 			}
 		},
-		"animation.sandshrew.cry": {
+		"animation.sandshrew_horror.cry": {
 			"animation_length": 1.2,
 			"sound_effects": {
 				"0.04": {
-					"effect": "pokemon.sandshrew.cry"
+					"effect": "pokemon.sandshrew_horror.cry"
 				}
 			}
 		}

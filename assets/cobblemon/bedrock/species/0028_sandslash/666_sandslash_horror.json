@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["horror"],
-      "poser": "cobblemon:sandslash",
+      "poser": "cobblemon:sandslash_horror",
       "model": "cobblemon:sandslash_horror.geo",
       "texture": "cobblemon:textures/pokemon/0028_sandslash/sandslash_horror.png",
       "layers": [

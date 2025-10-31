@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["horror"],
-      "poser": "cobblemon:sandshrew",
+      "poser": "cobblemon:sandshrew_horror",
       "model": "cobblemon:sandshrew_horror.geo",
       "texture": "cobblemon:textures/pokemon/0027_sandshrew/sandshrew_horror.png",
       "layers": []
