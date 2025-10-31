@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.bonsly.ground_idle": {
+		"animation.bonsly_horror.ground_idle": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -38,7 +38,7 @@
 				}
 			}
 		},
-		"animation.bonsly.battle_idle": {
+		"animation.bonsly_horror.battle_idle": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -75,7 +75,7 @@
 				}
 			}
 		},
-		"animation.bonsly.ground_walk": {
+		"animation.bonsly_horror.ground_walk": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -107,7 +107,7 @@
 				}
 			}
 		},
-		"animation.bonsly.cry": {
+		"animation.bonsly_horror.cry": {
 			"animation_length": 1.5,
 			"bones": {
 				"mouth": {
@@ -236,7 +236,7 @@
 				}
 			}
 		},
-		"animation.bonsly.blink": {
+		"animation.bonsly_horror.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
@@ -255,7 +255,7 @@
 				}
 			}
 		},
-		"animation.bonsly.sleep": {
+		"animation.bonsly_horror.sleep": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -296,7 +296,7 @@
 				}
 			}
 		},
-		"animation.bonsly.sleep_pot": {
+		"animation.bonsly_horror.sleep_pot": {
 			"loop": true,
 			"bones": {
 				"body": {

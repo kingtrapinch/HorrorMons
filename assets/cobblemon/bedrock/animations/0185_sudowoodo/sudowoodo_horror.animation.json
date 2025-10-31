@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.sudowoodo.ground_idle": {
+		"animation.sudowoodo_horror.ground_idle": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -15,7 +15,7 @@
 				}
 			}
 		},
-		"animation.sudowoodo.ground_walk": {
+		"animation.sudowoodo_horror.ground_walk": {
 			"loop": true,
 			"bones": {
 				"torso": {
@@ -35,7 +35,7 @@
 				}
 			}
 		},
-		"animation.sudowoodo.blink": {
+		"animation.sudowoodo_horror.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
@@ -54,7 +54,7 @@
 				}
 			}
 		},
-		"animation.sudowoodo.cry": {
+		"animation.sudowoodo_horror.cry": {
 			"animation_length": 1.5,
 			"bones": {
 				"mouth": {

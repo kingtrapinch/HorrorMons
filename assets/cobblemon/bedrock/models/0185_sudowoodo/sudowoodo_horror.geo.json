@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.sudowoodo",
+				"identifier": "geometry.sudowoodo_horror",
 				"texture_width": 128,
 				"texture_height": 64,
 				"visible_bounds_width": 4,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "sudowoodo",
+					"name": "sudowoodo_horror",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "sudowoodo",
+					"parent": "sudowoodo_horror",
 					"pivot": [0, 22, 0]
 				},
 				{

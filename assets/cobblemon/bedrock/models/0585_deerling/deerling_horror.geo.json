@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.deerling",
+				"identifier": "geometry.deerling_horror",
 				"texture_width": 64,
 				"texture_height": 32,
 				"visible_bounds_width": 3,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "deerling",
+					"name": "deerling_horror",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "deerling",
+					"parent": "deerling_horror",
 					"pivot": [0, 0, 0]
 				},
 				{

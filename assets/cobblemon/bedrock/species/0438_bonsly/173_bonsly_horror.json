@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["horror"],
-      "poser": "cobblemon:bonsly",
+      "poser": "cobblemon:bonsly_horror",
       "model": "cobblemon:bonsly_horror.geo",
       "texture": "cobblemon:textures/pokemon/0438_bonsly/bonsly_horror.png",
       "layers": []

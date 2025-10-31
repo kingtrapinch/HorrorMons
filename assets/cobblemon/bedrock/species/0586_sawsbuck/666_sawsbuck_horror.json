@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["horror"],
-      "poser": "cobblemon:sawsbuck",
+      "poser": "cobblemon:sawsbuck_horror",
       "model": "cobblemon:sawsbuck_horror.geo",
       "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_horror.png",
       "layers": [
@@ -17,7 +17,7 @@
     },
     {
       "aspects": ["horror", "shiny"],
-      "poser": "cobblemon:sawsbuck",
+      "poser": "cobblemon:sawsbuck_horror",
       "model": "cobblemon:sawsbuck_horror.geo",
       "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_horror_shiny.png",
       "layers": [

@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.bonsly",
+				"identifier": "geometry.bonsly_horror",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 2,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "bonsly",
+					"name": "bonsly_horror",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "bonsly",
+					"parent": "bonsly_horror",
 					"pivot": [0, 9, 0]
 				},
 				{

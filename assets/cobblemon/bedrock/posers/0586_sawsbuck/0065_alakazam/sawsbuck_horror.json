@@ -5,23 +5,24 @@
   "profileScale": 0.73,
   "profileTranslation": [0, 0.65, 0],
   "poses": {
-    "standing": {
-      "poseName": "standing",
-      "poseTypes": ["STAND", "FLOAT", "HOVER", "PROFILE", "PORTRAIT"],
-      "animations": ["q.look('head')", "q.bedrock('sawsbuck_horror', 'ground_idle')"],
-      "transformTicks": 10,
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('sawsbuck_horror', 'battle_idle')"],
       "quirks": ["q.bedrock_quirk('sawsbuck_horror', 'blink')"]
     },
-    "walk": {
-      "poseName": "walk",
-      "poseTypes": ["WALK", "SWIM", "FLY"],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('sawsbuck_horror', 'ground_idle')",
-        "q.biped_walk(0.6, 0.9, 'left_upper_leg', 'right_upper_leg')",
-        "q.bimanual_swing(0.6, 0.9, 'left_shoulder', 'right_shoulder')"
-      ],
-      "transformTicks": 10,
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('sawsbuck_horror', 'ground_idle')"],
+      "quirks": ["q.bedrock_quirk('sawsbuck_horror', 'blink')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('sawsbuck_horror', 'ground_walk')"],
       "quirks": ["q.bedrock_quirk('sawsbuck_horror', 'blink')"]
     }
   }

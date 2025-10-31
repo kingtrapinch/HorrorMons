@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["horror"],
-      "poser": "cobblemon:sudowoodo",
+      "poser": "cobblemon:sudowoodo_horror",
       "model": "cobblemon:sudowoodo_horror.geo",
       "texture": "cobblemon:textures/pokemon/0185_sudowoodo/sudowoodo_horror.png",
       "layers": []
