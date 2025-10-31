@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sandslash-1",
-            "pokemon": "sandslash",
+            "id": "sandslash-horror-1",
+            "pokemon": "sandslash horror",
             "presets": [
                 "natural"
             ],
