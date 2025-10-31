@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.psyduck-fnaf.ground_idle": {
+		"animation.psyduck_horror.ground_idle": {
 			"loop": true,
 			"bones": {
 				"arm_left": {
@@ -40,7 +40,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.water_idle": {
+		"animation.psyduck_horror.water_idle": {
 			"loop": true,
 			"animation_length": 13.0833,
 			"bones": {
@@ -118,7 +118,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.ground_walk": {
+		"animation.psyduck_horror.ground_walk": {
 			"loop": true,
 			"bones": {
 				"arm_left": {
@@ -199,7 +199,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.water_swim": {
+		"animation.psyduck_horror.water_swim": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -261,7 +261,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.faint": {
+		"animation.psyduck_horror.faint": {
 			"loop": true,
 			"animation_length": 2.5,
 			"bones": {
@@ -354,7 +354,7 @@
 				"torso": {
 					"position": [0, "math.clamp(-0.15*(math.sin(q.anim_time*90*3-90)*0.1+1),-0.2,-0.1)-math.sin(q.anim_time*90*3-90)*0.05", 0]
 				},
-				"psyduck-fnaf": {
+				"psyduck_horror": {
 					"rotation": {
 						"0.0": [0, 0, 0],
 						"0.3": [-7.5, 0, 0],
@@ -527,7 +527,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.sleep": {
+		"animation.psyduck_horror.sleep": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -591,7 +591,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.awooga": {
+		"animation.psyduck_horror.awooga": {
 			"loop": true,
 			"bones": {
 				"jaw": {
@@ -605,7 +605,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.render": {
+		"animation.psyduck_horror.render": {
 			"animation_length": 3.75,
 			"bones": {
 				"head_angle": {
@@ -651,7 +651,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.blink": {
+		"animation.psyduck_horror.blink": {
 			"animation_length": 0.5,
 			"bones": {
 				"eyelid_right": {
@@ -662,7 +662,7 @@
 				}
 			}
 		},
-		"animation.psyduck-fnaf.cry": {
+		"animation.psyduck_horror.cry": {
 			"animation_length": 0.91667,
 			"bones": {
 				"jaw": {

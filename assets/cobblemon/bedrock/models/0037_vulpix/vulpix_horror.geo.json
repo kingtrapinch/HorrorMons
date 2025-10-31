@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.riolu",
+				"identifier": "geometry.vulpix_horror",
 				"texture_width": 64,
 				"texture_height": 96,
 				"visible_bounds_width": 4,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "vulpix-fnaf",
+					"name": "vulpix_horror",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "vulpix-fnaf",
+					"parent": "vulpix_horror",
 					"pivot": [0, 13.5, -0.25]
 				},
 				{

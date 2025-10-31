@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:vulpix",
+  "order": 87,
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "poser": "cobblemon:vulpix_horror",
+      "model": "cobblemon:vulpix_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0037_vulpix/vulpix_horror.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "horror",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0037_vulpix/vulpix_horror_shiny.png"
+    }
+  ]
+}

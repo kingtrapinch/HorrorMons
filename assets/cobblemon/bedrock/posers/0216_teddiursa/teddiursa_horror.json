@@ -1,0 +1,33 @@
+ {
+  "portraitScale": 2,
+  "portraitTranslation": [-0.2, -0.7, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.7, 0],
+  "rootBone": "teddiursa_horror",
+  "animations": {
+    "cry": "q.bedrock_stateful('teddiursa_horror', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["q.look('head')", "q.bedrock('teddiursa_horror', 'battle_idle')"]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "isBattle": false,
+      "animations": ["q.look('head')", "q.bedrock('teddiursa_horror', 'ground_idle')"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": ["q.look('head')", "q.bedrock('teddiursa_horror', 'ground_walk')"]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": ["q.bedrock('teddiursa_horror', 'sleep')"]
+    }
+  }
+}

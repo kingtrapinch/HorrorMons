@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.vulpix-fnaf.ground_idle": {
+		"animation.vulpix_horror.ground_idle": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -263,7 +263,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.ground_walk": {
+		"animation.vulpix_horror.ground_walk": {
 			"loop": true,
 			"animation_length": 1.5,
 			"bones": {
@@ -462,7 +462,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.ground_run": {
+		"animation.vulpix_horror.ground_run": {
 			"loop": true,
 			"animation_length": 0.5,
 			"bones": {
@@ -595,7 +595,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.battle_idle": {
+		"animation.vulpix_horror.battle_idle": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -808,7 +808,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.physical": {
+		"animation.vulpix_horror.physical": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -2004,7 +2004,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.special": {
+		"animation.vulpix_horror.special": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -3556,7 +3556,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.status": {
+		"animation.vulpix_horror.status": {
 			"animation_length": 3,
 			"bones": {
 				"body": {
@@ -4813,7 +4813,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.cry": {
+		"animation.vulpix_horror.cry": {
 			"animation_length": 1.75,
 			"bones": {
 				"torso": {
@@ -5063,11 +5063,11 @@
 			},
 			"sound_effects": {
 				"0.25": {
-					"effect": "pokemon.vulpix-fnaf.cry"
+					"effect": "pokemon.vulpix_horror.cry"
 				}
 			}
 		},
-		"animation.vulpix-fnaf.recoil": {
+		"animation.vulpix_horror.recoil": {
 			"animation_length": 1.5,
 			"bones": {
 				"body": {
@@ -5402,7 +5402,7 @@
 				}
 			}
 		},
-		"animation.vulpix-fnaf.faint": {
+		"animation.vulpix_horror.faint": {
 			"animation_length": 3,
 			"bones": {
 				"body": {

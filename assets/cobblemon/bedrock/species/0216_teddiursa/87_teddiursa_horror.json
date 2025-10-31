@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:teddiursa",
+  "order": 87,
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "poser": "cobblemon:teddiursa",
+      "model": "cobblemon:teddiursa_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0216_teddiursa/teddiursa_horror.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "horror",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0216_teddiursa/teddiursa_horror_shiny.png"
+    }
+  ]
+}

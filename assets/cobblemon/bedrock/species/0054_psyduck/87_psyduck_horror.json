@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:psyduck",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "poser": "cobblemon:psyduck_horror",
+      "model": "cobblemon:psyduck_horror.geo",
+      "texture": "cobblemon:textures/pokemon/0054_psyduck/psyduck_horror.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "horror",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0054_psyduck/psyduck_horror_shiny.png"
+    }
+  ]
+}

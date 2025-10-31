@@ -12,21 +12,18 @@
       "poseName": "battle-standing",
       "poseTypes": ["STAND"],
       "isBattle": true,
-      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'battle_idle')"],
-      "quirks": ["q.bedrock_quirk('vulpix_horror', 'blink')"]
+      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'battle_idle')"]
     },
     "standing": {
       "poseName": "standing",
       "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "isBattle": false,
-      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'pose1')"],
-      "quirks": ["q.bedrock_quirk('vulpix_horror', 'blink')"]
+      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'ground_idle')"]
     },
     "walking": {
       "poseName": "walking",
       "poseTypes": ["WALK"],
-      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'ground_walk')"],
-      "quirks": ["q.bedrock_quirk('vulpix_horror', 'blink')"]
+      "animations": ["q.look('head')", "q.bedrock('vulpix_horror', 'ground_walk')"]
     },
     "sleeping": {
       "poseTypes": ["SLEEP"],
