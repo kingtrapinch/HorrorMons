@@ -109,7 +109,7 @@
 					"rotation": [0, 30, 17.5]
 				},
 				"arm_left2": {
-					"rotation": [0, 37.5, 0]
+					"rotation": [6.811, 23.5712, -15.0609]
 				},
 				"hand_left": {
 					"rotation": [-19.8423, 2.55868, 7.05239]
@@ -142,7 +142,7 @@
 					"rotation": [-25, 5, -17.5]
 				},
 				"arm_right2": {
-					"rotation": [0, -57.5, 0]
+					"rotation": [47.5, -57.5, 0]
 				},
 				"hand_right": {
 					"rotation": [-19.8423, -2.55868, -7.05239]
@@ -181,7 +181,7 @@
 			}
 		},
 		"animation.thwackey.blink": {
-			"animation_length": 0.16667,
+			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
 					"position": {
