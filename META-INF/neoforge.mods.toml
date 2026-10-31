@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "horrormons"
+version = "4.1"
+displayName = "Horrormons by KingTrapinch"
+authors = "KingTrapinch"
+description = '''
+Forms inspired by internet horror by KingTrapinch
+'''
+logoFile = "pack.png"
+
+[[dependencies.horrormons]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.214,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.horrormons]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.horrormons]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.8, )"
+ordering = "AFTER"
+side = "BOTH"
