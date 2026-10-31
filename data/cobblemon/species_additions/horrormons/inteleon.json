@@ -1,0 +1,153 @@
+{
+  "target": "cobblemon:inteleon",
+  "forms": [
+    {
+      "implemented": true,
+      "nationalPokedexNumber": 818,
+      "name": "FNAF",
+      "aspects": ["horror"],
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "maleRatio": 0.875,
+      "height": 19,
+      "weight": 452,
+      "pokedex": ["cobblemon.species.inteleon.desc"],
+      "labels": ["gen8"],
+      "abilities": ["poisontouch", "merciless", "h:sniper"],
+      "eggGroups": ["water_1", "field"],
+      "baseStats": {
+        "hp": 70,
+        "attack": 85,
+        "defence": 65,
+        "special_attack": 125,
+        "special_defence": 65,
+        "speed": 120
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "baseExperienceYield": 265,
+      "experienceGroup": "medium_slow",
+      "catchRate": 45,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 0.8,
+        "height": 2.85,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "canBreatheUnderwater": true,
+            "swimSpeed": "0.2"
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": "5"
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 7,
+        "entries": [
+          {
+            "item": "minecraft:slime_ball",
+            "quantityRange": "1-3"
+          },
+          {
+            "item": "cobblemon:poke_bait",
+            "quantityRange": "1-3"
+          },
+          {
+            "item": "cobblemon:smoke_ball",
+            "percentage": 25.0
+          }
+        ]
+      },
+      "moves": [
+        "1:snipeshot",
+        "1:sludgebomb",
+        "1:present",
+        "1:smokescreen",
+        "1:acidspray",
+        "1:nightshade",
+        "12:sludge",
+        "19:tearfullook",
+        "24:suckerpunch",
+        "30:hex",
+        "36:sludgewave",
+        "40:confuseray",
+        "46:toxic",
+        "54:shadowball",
+        "62:finalgambit",
+        "87:memento",
+        "egg:doubleteam",
+        "egg:confuseray",
+        "egg:fellstinger",
+        "egg:haze",
+        "egg:iceshard",
+        "egg:mist",
+        "egg:venoshock",
+        "tm:bind",
+        "tm:toxic",
+        "tm:venoshock",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:bounce",
+        "tm:chillingwater",
+        "tm:dive",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:facade",
+        "tm:haze",
+        "tm:lightscreen",
+        "tm:muddywater",
+        "tm:mudshot",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:swift",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:uturn",
+        "tm:workup",
+        "tutor:bind",
+        "tutor:bounce",
+        "tutor:dive",
+        "tutor:liquidation",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "legacy:attract",
+        "legacy:batonpass",
+        "legacy:round",
+        "legacy:snore"
+      ],
+      "preEvolution": "drizzile",
+      "evolutions": []
+    }
+  ]
+}

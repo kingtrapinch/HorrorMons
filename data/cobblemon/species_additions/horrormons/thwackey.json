@@ -1,0 +1,171 @@
+{
+  "target": "cobblemon:thwackey",
+  "forms": [
+    {
+      "implemented": true,
+      "nationalPokedexNumber": 811,
+      "name": "JefftheKiller",
+      "aspects": ["horror"],
+      "primaryType": "dark",
+      "maleRatio": 0.875,
+      "height": 7,
+      "weight": 140,
+      "pokedex": ["cobblemon.species.thwackey.desc"],
+      "abilities": ["wellbakedbody","guts", "h:sharpness"],
+      "labels": ["gen8"],
+      "eggGroups": ["field", "grass"],
+      "baseStats": {
+        "hp": 70,
+        "attack": 85,
+        "defence": 70,
+        "special_attack": 55,
+        "special_defence": 60,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 147,
+      "experienceGroup": "medium_slow",
+      "catchRate": 45,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.8,
+      "hitbox": {
+        "width": 0.85,
+        "height": 1.65,
+        "fixed": false
+      },
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "minecraft:stick",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:miracle_seed",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "moves": [
+        "1:comeuppance",
+        "1:scratch",
+        "1:leer",
+        "1:metalclaw",
+        "1:taunt",
+        "12:payback",
+        "19:honeclaws",
+        "24:foulplay",
+        "30:slash",
+        "36:punishment",
+        "42:nightslash",
+        "48:endeavor",
+        "egg:fakeout",
+        "egg:growth",
+        "egg:hammerarm",
+        "egg:strength",
+        "tm:acrobatics",
+        "tm:assurance",
+        "tm:bodyslam",
+        "tm:drainpunch",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:focusenergy",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:willowisp",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:rest",
+        "tm:screech",
+        "tm:sleeptalk",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:uproar",
+        "tm:uturn",
+        "tm:workup",
+        "tutor:drainpunch",
+        "tutor:endeavor",
+        "tutor:falseswipe",
+        "tutor:focusenergy",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:swift",
+        "tutor:uproar",
+        "legacy:attract",
+        "legacy:round",
+        "legacy:snore"
+      ],
+      "preEvolution": "grookey horror",
+      "evolutions": [
+        {
+          "id": "thwackey_rillaboom_horror",
+          "variant": "level_up",
+          "result": "rillaboom horror",
+          "consumeHeldItem": false,
+          "learnableMoves": ["falsesurrender"],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 35
+            }
+          ]
+        }
+      ],
+      "behaviour": {
+        "herd": {
+          "maxSize": "5",
+          "toleratedLeaders": [
+            {
+              "pokemon": "thwackey horror",
+              "tier": 1
+            },
+            {
+              "pokemon": "rillaboom horror",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0,
+          "rouseChance": 0.0042
+        }
+      }
+    }
+  ]
+}

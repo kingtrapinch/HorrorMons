@@ -1,0 +1,171 @@
+{
+  "target": "cobblemon:grookey",
+  "forms": [
+    {
+      "implemented": true,
+      "nationalPokedexNumber": 810,
+      "name": "JefftheKiller",
+      "aspects": ["horror"],
+      "primaryType": "dark",
+      "maleRatio": 0.875,
+      "height": 3,
+      "weight": 50,
+      "pokedex": ["cobblemon.species.grookey.desc"],
+      "abilities": ["wellbakedbody","guts", "h:sharpness"],
+      "labels": ["gen8"],
+      "eggGroups": ["field", "grass"],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "catchRate": 45,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.6,
+      "hitbox": {
+        "width": 0.8,
+        "height": 1,
+        "fixed": false
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:stick",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:miracle_seed",
+            "percentage": 5.0
+          }
+        ]
+      },
+      "moves": [
+        "1:scratch",
+        "1:leer",
+        "6:metalclaw",
+        "8:taunt",
+        "12:payback",
+        "17:honeclaws",
+        "20:foulplay",
+        "24:slash",
+        "28:punishment",
+        "32:nightslash",
+        "36:endeavor",
+        "egg:fakeout",
+        "egg:growth",
+        "egg:hammerarm",
+        "egg:strength",
+        "tm:acrobatics",
+        "tm:assurance",
+        "tm:bodyslam",
+        "tm:drainpunch",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:focusenergy",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:willowisp",
+        "tm:knockoff",
+        "tm:lowkick",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:rest",
+        "tm:screech",
+        "tm:sleeptalk",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:uproar",
+        "tm:uturn",
+        "tm:workup",
+        "tutor:drainpunch",
+        "tutor:endeavor",
+        "tutor:falseswipe",
+        "tutor:focusenergy",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:rest",
+        "tutor:sleeptalk",
+        "tutor:swift",
+        "tutor:uproar",
+        "legacy:attract",
+        "legacy:round",
+        "legacy:snore"
+      ],
+      "evolutions": [
+        {
+          "id": "grookey_thwackey_horror",
+          "variant": "level_up",
+          "result": "thwackey horror",
+          "consumeHeldItem": false,
+          "learnableMoves": ["comeuppance"],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 16
+            }
+          ]
+        }
+      ],
+      "behaviour": {
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "grookey horror",
+              "tier": 1
+            },
+            {
+              "pokemon": "thwackey horror",
+              "tier": 2
+            },
+            {
+              "pokemon": "rillaboom horror",
+              "tier": 3
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      }
+    }
+  ]
+}
