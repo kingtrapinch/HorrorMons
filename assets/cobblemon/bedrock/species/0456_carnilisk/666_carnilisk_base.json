@@ -1,0 +1,27 @@
+{
+  "order": 666,
+  "species": "cobblemon:carnilisk",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:carnilisk.geo",
+      "poser": "cobblemon:carnilisk",
+      "texture": "cobblemon:textures/pokemon/0456_carnilisk/carnilisk.png"
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0456_carnilisk/carnilisk_shiny.png"
+    },
+    {
+      "aspects": ["alpha_eyes"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0456_carnilisk/carnilisk_alpha.png"
+        }
+      ]
+    }
+  ]
+}

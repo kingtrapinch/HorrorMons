@@ -1,0 +1,65 @@
+{
+  "animations": { "cry": "q.bedrock_stateful('carnilisk', 'cry')" },
+  "portraitScale": 1.28,
+  "portraitTranslation": [-0.21, 2.77, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('carnilisk', 'battle_idle')"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseTypes": ["STAND"],
+      "transformTicks": 10
+    },
+    "float": {
+      "animations": ["q.bedrock('carnilisk', 'water_idle')"],
+      "isTouchingWater": true,
+      "namedAnimations": { "sleep": "q.bedrock('carnilisk', 'water_sleep')" },
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "animations": ["q.bedrock('carnilisk', 'sleep')"],
+      "namedAnimations": { "cry": "q.bedrock_stateful('dummy', 'cry')" },
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('carnilisk', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('carnilisk', 'blink')"],
+      "transformTicks": 10
+    },
+    "surface_float": {
+      "animations": ["q.bedrock('carnilisk', 'surfacewater_idle')"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "namedAnimations": { "sleep": "q.bedrock('carnilisk', 'water_sleep')" },
+      "poseTypes": ["STAND", "FLOAT"],
+      "transformTicks": 10
+    },
+    "surface_swim": {
+      "animations": ["q.bedrock('carnilisk', 'surfacewater_swim')"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "namedAnimations": { "sleep": "q.bedrock('carnilisk', 'water_sleep')" },
+      "poseTypes": ["SWIM", "FLY"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.bedrock('carnilisk', 'water_swim')"],
+      "isTouchingWater": true,
+      "namedAnimations": { "sleep": "q.bedrock('carnilisk', 'water_sleep')" },
+      "poseTypes": ["SWIM"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('carnilisk', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('carnilisk', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.57,
+  "profileTranslation": [0, 1, 0],
+  "rootBone": "carnilisk"
+}
