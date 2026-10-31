@@ -1,0 +1,40 @@
+{
+  "animations": { "cry": "q.bedrock_stateful('sobble', 'cry')" },
+  "portraitScale": 1.62,
+  "portraitTranslation": [-0.22, -0.19, 0],
+  "poses": {
+    "shoulder_left": {
+      "animations": ["q.look('head')", "q.bedrock('sobble', 'shoulder_left')"],
+      "poseTypes": ["SHOULDER_LEFT"],
+      "quirks": ["q.bedrock_quirk('sobble', 'blink')"],
+      "transformedParts": [{ "part": "body", "position": [-2, 0, 0] }]
+    },
+    "shoulder_right": {
+      "animations": ["q.look('head')", "q.bedrock('sobble', 'shoulder_right')"],
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "quirks": ["q.bedrock_quirk('sobble', 'blink')"],
+      "transformedParts": [{ "part": "body", "position": [2, 0, 0] }]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('sobble', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('sobble', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('sobble', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('sobble', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('sobble', 'blink')"]
+    }
+  },
+  "profileScale": 0.62,
+  "profileTranslation": [0, 0.83, 0],
+  "rootBone": "sobble"
+}

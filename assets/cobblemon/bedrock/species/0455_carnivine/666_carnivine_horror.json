@@ -1,0 +1,27 @@
+{
+  "order": 666,
+  "species": "cobblemon:carnivine",
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "layers": [],
+      "model": "cobblemon:carnivine.geo",
+      "poser": "cobblemon:carnivine",
+      "texture": "cobblemon:textures/pokemon/0455_carnivine/carnivine_horror.png"
+    },
+    {
+      "aspects": ["horror","shiny"],
+      "texture": "cobblemon:textures/pokemon/0455_carnivine/carnivine_horror_shiny.png"
+    },
+    {
+      "aspects": ["horror","alpha_eyes"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0455_carnivine/carnivine_alpha.png"
+        }
+      ]
+    }
+  ]
+}

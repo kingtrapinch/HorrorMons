@@ -1,0 +1,27 @@
+{
+  "order": 666,
+  "species": "cobblemon:grookey",
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "layers": [],
+      "model": "cobblemon:grookey_horror.geo",
+      "poser": "cobblemon:grookey",
+      "texture": "cobblemon:textures/pokemon/0810_grookey/grookey_horror.png"
+    },
+    {
+      "aspects": ["horror","shiny"],
+      "texture": "cobblemon:textures/pokemon/0810_grookey/grookey_horror_shiny.png"
+    },
+    {
+      "aspects": ["horror","alpha_eyes"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0810_grookey/grookey_horror_alpha.png"
+        }
+      ]
+    }
+  ]
+}

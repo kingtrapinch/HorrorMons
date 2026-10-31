@@ -1,0 +1,28 @@
+{
+  "animations": { "cry": "q.bedrock_stateful('drizzile', 'cry')" },
+  "portraitScale": 1.98,
+  "portraitTranslation": [-0.59, 0.38, 0],
+  "poses": {
+    "sleep": {
+      "animations": ["q.bedrock('drizzile', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('drizzile', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('drizzile', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('drizzile', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('drizzile', 'blink')"]
+    }
+  },
+  "profileScale": 0.65,
+  "profileTranslation": [0, 0.73, 0],
+  "rootBone": "drizzile"
+}

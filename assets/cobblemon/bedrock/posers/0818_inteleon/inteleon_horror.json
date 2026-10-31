@@ -1,0 +1,28 @@
+{
+  "animations": { "cry": "q.bedrock_stateful('inteleon', 'cry')" },
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.43, 3.56, 0],
+  "poses": {
+    "sleep": {
+      "animations": ["q.bedrock('inteleon', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('inteleon', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('inteleon', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('inteleon', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('inteleon', 'blink')"]
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1, 0],
+  "rootBone": "inteleon"
+}

@@ -1,0 +1,27 @@
+{
+  "order": 666,
+  "species": "cobblemon:thwackey",
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "layers": [],
+      "model": "cobblemon:thwackey_horror.geo",
+      "poser": "cobblemon:thwackey",
+      "texture": "cobblemon:textures/pokemon/0811_thwackey/thwackey_horror.png"
+    },
+    {
+      "aspects": ["horror","shiny"],
+      "texture": "cobblemon:textures/pokemon/0811_thwackey/thwackey_horror_shiny.png"
+    },
+    {
+      "aspects": ["horror","alpha_eyes"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0811_thwackey/thwackey_horror_alpha.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "order": 666,
+  "species": "cobblemon:rillaboom",
+  "variations": [
+    {
+      "aspects": ["horror"],
+      "layers": [],
+      "model": "cobblemon:rillaboom_horror.geo",
+      "poser": "cobblemon:rillaboom",
+      "texture": "cobblemon:textures/pokemon/0812_rillaboom/rillaboom_horror.png"
+    },
+    {
+      "aspects": ["horror","shiny"],
+      "texture": "cobblemon:textures/pokemon/0812_rillaboom/rillaboom_horror_shiny.png"
+    },
+    {
+      "aspects": ["horror","alpha_eyes"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0812_rillaboom/rillaboom_horror_alpha.png"
+        }
+      ]
+    }
+  ]
+}
